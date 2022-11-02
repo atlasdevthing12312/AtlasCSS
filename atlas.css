@@ -1,0 +1,79 @@
+/*     
+readme-----
+           _   _                            
+          | | | |                           
+      __ _| |_| | __ _ ___      ___ ___ ___ READ
+     / _` | __| |/ _` / __|    / __/ __/ __| ME
+    | (_| | |_| | (_| \__ \   | (__\__ \__ \PLOX
+     \__,_|\__|_|\__,_|___/    \___|___/___/vvvv
+                                         
+     PLEASE READ BELOW IT IS IMPORTANT
+
+     all class or ids start with "at_"
+          you may not redistribute
+    PLEASE CREDIT ME SOMEWHERE ON YOUR PAGE
+
+          edit to your liking! :)
+
+       some of these use custom tags
+     you can port them to classes if it
+          does not work for you!
+*/
+
+
+/*font faces*/
+@font-face {
+  font-family: barcode;
+  src: url(https://files.catbox.moe/z97xvf.ttf);
+}
+@font-face {
+  font-family: txt;
+  src: url(https://files.catbox.moe/i9hk8v.otf);
+}
+
+/*text+preexisting tag styles*/
+h1, h2, h3, h4, h5, h6{
+  font-weight:300;
+}
+body{
+  font-weight:195;
+  font-family: txt;
+}
+nav{
+  background-color: #e6e6e6;
+  margin: 0 -500%;
+  padding: 10px 500% !important;
+}
+/*classes*/
+.at_navit{
+  color:grey;
+}
+.at_navit:hover{
+  color:black;
+}
+.at_navit_ACTIVE{
+  background-color:grey;
+  color:white;
+}
+
+/*custom tags*/
+bar-linear{
+    font-family: barcode;
+  font-size: 25.6px;
+}
+btnlink{
+	  padding: 15px;
+	  background-color: blue;
+	color:White;
+	  border-radius: 25px;
+	  transition: 0.12356s;
+	transition-timing-function: ease-in-out;
+}
+btnlink:hover{
+	background-color: #000ACE;
+	 transform: scale(25px);
+}
+btnlink:active{
+	border-style: solid;
+	border-color: black;
+}
